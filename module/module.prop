@@ -1,0 +1,6 @@
+id=xmsf_netblock
+name=XMSF 定向屏蔽 + 应用断网
+version=v1.3
+versionCode=130
+author=shusbssjsijhsis
+description=小米服务框架（com.xiaomi.xmsf）只拦指定域名（默认 hyperos.developer.xiaomi.com）：按应用 UID 匹配，命中 TLS SNI 或代理 CONNECT 里的主机名就立即重置连接，推送不受影响。v1.3 新增整个断网：BLOCK_ALL 里的应用所有连接一律拒绝（默认安全守护 com.miui.guardprovider：云端查杀会把已装应用的信息发往查杀引擎的云端，断网后本地查杀照常）。不改 hosts、不改 Clash。点“操作”切换启用/停用并看拦截次数。
